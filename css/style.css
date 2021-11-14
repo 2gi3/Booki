@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  *{
+    margin: 0;
+    padding:0;
+  }
+
+  nav { 
+    text-align:right;
+   }
+   li {
+    display: inline;
+    margin: 10px;
+  }
+input[type=text] {
+width: 15%;
+padding: 10px 5px;
+margin: 15px 20px;
+min-width: 80px;
+border-radius:20px;
+}
+
+.accomodations{
+  background-color: #DEEBFF;
+  width: 60%;
+  height: 80%;
+  margin:15%;
+  border-radius:30px;
+  display:grid;
+  grid-template: 4% 44% 44% / repeat(3,25%);
+  grid-gap:2%;
+
+}
+.accomodations .header{ grid-column: 1/-1;}
+
+.card{
+  border:1px solid black;
+  border-radius: 10px;
+  padding: 2px;
+  min-width: 100px;
+  max-width:200px;
+}
+
+.card img {
+  max-width: 100%;
+}
