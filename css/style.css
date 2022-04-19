@@ -258,9 +258,10 @@ input:hover {
 
 }
 .accomodation-box:hover{
-  background-color: #F2F2F2;
-  width: 29%;
-  height: 173px;
+    background-color: #F2F2F2;
+    width: 27.5%;
+    height: 171px;
+    padding: 5px;
 } 
 #carnebiere {
   background-image: url(../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
