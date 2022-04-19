@@ -67,6 +67,7 @@ h4{
 }
 
 .nav-box ul li:hover {
+  padding-top: 22px;
   border-top: 3px solid #0065FC;
   color: #0065FC;
 }
